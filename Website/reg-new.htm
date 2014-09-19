@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员注册</title>
+<link href="style/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="login" class="bor" >
+  <h1>新用户注册</h1>
+  <div class="theme">
+    <form method="post" action="#" id="regUser" name="form2">
+      <ul>
+        <li><span>用户名：</span>
+        <input  class="intxt w200" id="txtUsername"  name="userid" type="text" id="txtUsername"  onpaste="return false" ondragenter="return false"  style="ime-mode:disabled" class="pwd_inp"/>
+        </li>
+        <li><span>姓名：</span>
+            <input type="text" class="intxt w200" id="txtUsername"  name="uname"/>
+        </li>
+        <li><span>登陆密码：</span>
+          <input type="password" style="font-family: verdana;" class="intxt w200" id="txtPassword" name="userpwd"/><input id="passwordLevel" class="rank r2" disabled="disabled" name="Input"/>
+        </li>
+        <li><span>确认密码：</span>
+          <input type="password" class="intxt w200" size="20" value="" id="userpwdok" name="userpwdok"/>
+          <em id="_userpwdok"></em> </li>
+          <li><span>电子邮箱：</span>
+            <input type="text" class="intxt w200" id="email" name="email"/></li>
+          <li>
+          		<span>学校：</span>
+            	<input type="text" class="intxt w200" id="email" name="school"/>
+          </li>
+          <li>
+          		<span>联系方式：</span>
+            	<input type="text" class="intxt w200" id="email" name="phone"/>
+          </li>
+                    <li>
+          		<span>爱好：</span>
+            	<input type="text" class="intxt w200" id="email" name="phone"/>
+          </li>
+        <li><span>性别：</span><span></span>
+        <input type="radio" value="女" name="sex" checked="checked" />女<span>&nbsp;</span>
+        <input type="radio" value="男" name="sex"/>男
+		</li>
+        <li>
+          <span>&nbsp;</span><button type="submit" id="btnSignCheck" class="reg-btn">确定注册</button><a class="regbt" href="/member/login.php" rel="nofollow">已有账号？</a>
+        </li>
+      </ul>
+
+    </form>
+    </div>
+  <br class="clear"/>
+</div>
+<div class="footer">Copyright &copy; 2013-2014</a> 版权所有
+</div>
+</body>
+</html>

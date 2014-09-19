@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>个人主页</title>
+<meta charset="utf-8">
+<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	<header>
+    	<div class="wrap">
+            <div class="logo">
+                <a href="index.html"><span style="font-size:40px; ">大学生活动社交平台</span></a>
+            </div>
+            <p>&nbsp;&nbsp;&nbsp;</p>
+            <div class="login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;你好 注销</div> 
+            <div class="menu">
+            </div>
+            <div class="clearFloat"></div>
+         </div>
+    </header>
+    <div class="wrap">
+        <div class="one sidebar">
+            <div class="widget">
+                <ul>
+                    <li><a href="index.html" class="icon">个人主页</a></li>
+                    <li class="active"><a href="CreateEvents.html" class="icon">活动发起</a></li>
+                    <li><a href="JoinEvents.html" class="icon">活动参与</a></li>
+                    <li><a href="JoinedEvents.html" class="icon">已参加活动</a></li>
+                    <li><a href="UserInfo.html" class="icon">个人信息</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="grids">
+                <h2>创建新活动</h2>
+                <br/>
+                <div class="grids">
+                <form action="create.php" method="post">
+                <div class="grid">
+                <a>活动名称: </a><input type="text" style="width:250px;" name="aname"/>
+                </div>
+                <div class="grid">
+                <a>活动地点: </a><input type="datetime" style="width:250px;" name="aposition"/>
+                </div>
+                <div class="grid">
+                <a>活动时间: </a><input type="datetime" style="width:250px;" name="atime"/><a> 请按照YYYY-MM-DD HH:MM:SS的格式进行填写</a>
+                </div>
+                 <div class="grid">
+                <a>活动类别: </a><input type="text"style="width:250px;" name="tags"/>
+                </div>
+                <div class="grid">
+                <a>最大人数: </a><input type="text"style="width:250px;" name="amaxnum"/>
+                </div>
+                <div class="grid">
+                <a>活动简述: </a><input type="text" style="height:100px;width:250px;" name="ainfo"/>
+                </div>
+                <div class="grid">
+                <input type="submit" value="确认创建"/>
+                </div>
+                
+                </form>
+                </div>
+                </div>
+                <div class="clearFloat"></div>
+            </div>              
+</body>
+</html>
